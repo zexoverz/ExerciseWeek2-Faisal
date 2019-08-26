@@ -1,0 +1,32 @@
+
+
+ Membuat Algoritma Menghitung Resultan Mobil 
+
+Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+Algoritma:
+
+Rumus Hukum Newton 2 , Resultan Gaya = Massa x Percepatan.
+
+1.Simpan `Massa` dengan nilai 600. 
+2.Simpan `Percepatan` dengan nilai 2.
+3.Simpan `ResultanGaya` Tanpa nilai (Nilai akan di isi nanti).
+4.Hitung Hasil Perkalian `Massa` dengan `Percepatan`.
+5.Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam `Resultan Gaya`.
+6.Tampilkan nilai dari "ResultanGaya"
+
+
+Pseudocode :
+
+START
+
+STORE `Massa` to 600
+STORE `Percepatan` to 2
+STORE `ResultanGaya` Without any Value
+
+CALCULATES "Massa" times "Percepatan"
+SET "ResultanGaya" with calculation result.
+Display `ResultanGaya`
+
+END
+

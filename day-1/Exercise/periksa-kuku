@@ -1,0 +1,39 @@
+
+ Memecahkan Algoritma Periksa kuku murid
+
+Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+Buatlah algoritma & pseudocode untuk permasalahan diatas.
+
+
+Algoritma :
+
+1. simpan `BanyakSiswa` dengan nilai 40
+2. simpan `kukuPanjang` dengan nilai 18
+3. simpan `kukuPendek` dengan nilai 22
+4. simpan `counter` dengan nilai 1
+5. selama "counter" nilainya masih di bawah "BanyakSiswa, iterasi "counter" dengan nilai 1 dan lakukan step 6.
+6. jika "x" kurang dari "kukuPanjang" maka lakukan step 7, jika tidak lakukan step 8.
+7. tampilkan "siswa ke-"x" kukunya panjang, dia akan di hukum!!"
+8. tampilkan "siswa ke-"x" kukunya pendek, dia di puji guru"
+
+
+Pseudocode :
+
+START
+
+STORE `BanyakSiswa` to 40
+STORE `kukuPanjang` to 18
+STORE `kukuPendek` to 22
+STORE `counter` to 1
+
+FOR "counter" <= "BanyakSiswa", INCREMENT counter by 1
+	DO if "x" < kukuPanjang THEN
+	   Display "siswa ke-"x" kukunya panjang, dia akan di hukum!!"
+	ELSE 
+	   Display "siswa ke-"x" kukunya pendek, dia di puji guru"
+	END IF
+
+END
+
+

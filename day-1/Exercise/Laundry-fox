@@ -1,0 +1,35 @@
+
+ Membuat Algoritma Laundry Foxie 
+
+Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+
+
+Algoritma:
+1. simpan `pakaian` dengan nilai 20
+2. simpan `x` dengan nilai 1
+3. ulangi step 4 selama nilai "x" masih dibawah "pakaian". jika "x" sudah mencapai nilai 20, lanjut step 4.
+4.Tampilkan "x" dan "Pakaian Telah dimasukan", tambah "x" dengan 1, agar mendekati batas perulangan. kembali ke step 3 
+5.tampilkan "Mesin cuci siap dinyalakan!!". karna perulangan sudah selesai.
+
+
+
+Pseudocode:
+
+START
+
+STORE `pakaian` to 20
+STORE `x` to 1
+
+While "x" <= "pakaian`"
+      DO Display "x" and " Pakaian Telah dimasukan"
+      INCREMENT "x" by 1
+
+Display "Mesin cuci siap dinyalakan!!"
+
+END`
+
+
+
+
